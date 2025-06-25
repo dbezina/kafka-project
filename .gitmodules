@@ -1,0 +1,3 @@
+[submodule "ProductMicroservice"]
+	path = ProductMicroservice
+	url = git@github.com:dbezina/KafkaProductConsumer.git
