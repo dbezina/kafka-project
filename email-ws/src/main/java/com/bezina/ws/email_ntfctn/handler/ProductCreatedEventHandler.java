@@ -36,6 +36,8 @@ public class ProductCreatedEventHandler {
         this.restTemplate = restTemplate;
         this.processEventRepository = eventRepository;
     }
+
+    public ProductCreatedEventHandler(){}
     //@Transactional
     @KafkaHandler
     public void handle(@Payload ProductCreatedEvent productCreatedEvent,
